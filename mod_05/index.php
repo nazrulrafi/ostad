@@ -24,7 +24,7 @@
         <div class="wrap">
             <h3 class="text-center">Task Three</h3>
             <?php 
-                if($result){
+                if(isset($result)){
                     echo $result;
                 }
             ?>

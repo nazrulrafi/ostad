@@ -18,6 +18,8 @@ Route::get('/', function () {
 Route::post("/store",[StoreName::class,"storeName"]);
 //Question no 02
 Route::get("/userAgent",[UserAgent::class,"userAgent"]);
+//Question no 03
+// the answer of 3rd question is in api.php
 //Question no 04
 Route::get('/json-response', function () {
     $data = [
